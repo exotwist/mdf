@@ -40,7 +40,9 @@ def strip_p(s):
 class Document:
 	def __init__(self, filename, config):
 		self.config = config
-		if not filename.endswith('.md'):
+		if filename.endswith('.'):
+			filename += 'md'
+		elif not filename.endswith('.md'):
 			filename += '.md'
 		self.md_path = filename
 		self.pdf_path = os.path.splitext(self.md_path)[0] + '.pdf'
