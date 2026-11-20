@@ -4,7 +4,7 @@
 h1, h2, h3, h4, p, ol, ul, table, pre, blockquote, figure { margin: 3mm 0; }
 ol, ul { padding: 0 0 0 8mm; }
 ul ul, ul ol, ol ul, ol ol { margin: 0; }
-li { margin: 3mm 0; }
+li { margin: 2mm 0; }
 
 h1 { margin-top: 10mm; }
 h2 { margin-top: 9mm; }
